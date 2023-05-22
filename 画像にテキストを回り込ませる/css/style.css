@@ -1,0 +1,9 @@
+.box{
+  float: left;
+}
+.clearfix{
+  content: "";
+  display: block;
+  clear: both;
+  overflow: hidden;
+}

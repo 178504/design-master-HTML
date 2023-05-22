@@ -1,0 +1,18 @@
+a{
+  color: #0073bc;
+  text-decoration: none;
+  -web-tap-highlight-color:rgba(243, 151, 45, 0.5)
+}
+a:link{
+  color: #f00;
+}
+a:visited{
+  color: #f0f;
+}
+a:hover{
+  color: #080;
+  text-decoration: underline;
+}
+a:active{
+  color: #777;
+}

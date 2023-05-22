@@ -1,0 +1,7 @@
+a:hover img{
+opacity: 0.5;
+}
+a:hover .frame{
+  padding: 10px;
+  border: 1px solid #f00;
+}
