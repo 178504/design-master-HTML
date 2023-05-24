@@ -1,0 +1,41 @@
+.wrapper ol{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.wrapper li{
+  display: inline-block;
+}
+.wrapper li::after{
+  content: "»";
+  color: #999;
+}
+.wrapper li:last-child::after{
+  content: none;
+}
+.wrapper a{
+  text-decoration: none;
+}
+
+/* game */
+.game ol{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border: 1px solid #ccc;
+  width: 300px;
+  list-style-type: none;
+}
+.game li{
+  display: inline-block;
+}
+.game li::after{
+  content: ">>";
+  color: #999;
+}
+.game li:last-child::after{
+  content: none;
+}
+.game a{
+  text-decoration: none;
+}
