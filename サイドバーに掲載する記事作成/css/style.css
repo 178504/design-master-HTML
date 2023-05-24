@@ -1,0 +1,24 @@
+.sidebar{
+  border: 1px solid #000;
+  padding: 8px;
+  width: 300px;
+}
+.subnav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.subnav li{
+  overflow: hidden;
+  margin: 1em 0 1em 0;
+}
+.subnav .thumb{
+  float: left;
+  width: 100px;
+}
+.subnav .summary{
+  margin: 0 0 0 108px;
+}
+.subnav a{
+  text-decoration: none;
+}
