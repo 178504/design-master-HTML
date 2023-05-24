@@ -1,0 +1,26 @@
+div{
+  overflow-x: scroll;
+}
+table{
+  border-collapse: collapse;
+}
+.price{
+  width: 1000px;
+}
+caption{
+  text-align: left;
+}
+th, td{
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.price th{
+  white-space: nowrap;
+}
+.price tr:nth-child(odd){
+  background-color: #f0f;
+  color: #fff;
+}
+.price tr:first-child{
+  background-color: #00f;
+}

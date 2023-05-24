@@ -1,0 +1,15 @@
+.wrap tr:nth-child(odd){
+  background-color: #0ff;
+}
+.wrap tr:first-child{
+  background-color: #00f;
+}
+table{
+  border-collapse: collapse;
+}
+th, td{
+  padding: 8px;
+  border: 1px solid #777;
+  text-align: center;
+
+}
