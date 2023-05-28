@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>さまざまなフォーム部品</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>さまざまなフォーム部品</h1>
+  <h2>テキストフィールドとフォーム部品の基本的なマークアップ</h2>
+  <form action="#" method="post">
+    <p>
+      <label for="name-filed">お名前</label><br>
+      <input type="text" name="name" id="name-filed">
+    </p>
+  </form>
+  <h2>必須項目のマークアップ</h2>
+  <form action="#" method="post">
+    <p>
+      <label for="name">お名前<span class="required">*必須</span></label><br>
+      <input type="text" name="name" id="name" required>
+    </p>
+  </form>
+</body>
+</html>
