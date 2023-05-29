@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* わかりやすくするために適用しているCSS */
+body {
+	color: #444;
+}
+h1 {
+	margin: 0;
+}
+main p:last-child {
+	margin-bottom: 0;
+}
+.main-title {
+	margin: 0;
+}
+.copyright {
+	margin: 0;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1000px;
+}
+section .container{
+  display: flex;
+  flex-flow: column;
+}
+
+.header-inner{
+  background-color: #bad7f5;
+  padding: 10px 10px 0 10px;
+}
+.nav-inner{
+  background-color: #fffde3;
+  padding: 10px 10px 0 10px;
+}
+main{
+  background-color: #ff0;
+  padding: 20px 10px 20px 10px;
+  height: 400px;
+}
+.sidebar{
+  background-color: #00f;
+  padding: 20px 10px;
+}
+.footer-inner{
+  background-color: #0ff;
+  padding: 20px 16px 10px 16px;
+}
+
+
+/* header */
+.hamburger{
+  border: none;
+  width: 50px;
+  height: 50px;
+  background: url(../images/hamburger.png) no-repeat;
+  background-size: contain;
+}
+
+/*ナビゲーションメニュー */
+
+.navbar{
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #565656;
+}
+.navbar li a{
+  display: block;
+  padding: 10px 8px;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar li a:hover{
+  background-color: #fff;
+  color: #565656;
+}
+
+
+@media only screen and (min-width:768px){
+  section .container{
+    flex-flow: row;
+  }
+  main{
+    flex: 1 1 auto;
+  }
+  .sidebar{
+    flex: 0 0 340px;
+  }
+  .hamburger{
+    display: none;
+  }
+  .navbar{
+    display: flex !important;
+  }
+}
